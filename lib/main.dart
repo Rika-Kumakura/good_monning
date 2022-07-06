@@ -73,7 +73,7 @@ class _MyHomePageState extends State<MyHomePage> {
       bottomNavigationBar: BottomNavigationBar(
         // 現在のページインデックス
         currentIndex: _screen,
-        // onTapでナビゲーションメニューがタップされた時の処理を定義
+        // onTapでナビゲーションメニューがタップされた時
         onTap: (index) {
           setState(() {
             // ページインデックスを更新
